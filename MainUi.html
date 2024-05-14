@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>    @import url('https://fonts.cdnfonts.com/css/cartoon-free');
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="MainUI.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <div id="gamestart"> <span class="startingdiaalouge">Choose  game from the side bar </span>
+    <br>
+  <span class="startingdiaalouge">HAppy playing :D</span>
+  
+  
+  </div>
+  <header></header>
+  <main >
+   <button id="Exit">Exit </button>
+    <section id="section" >  </section>
+ <!----       rock paper scoeores                  -->
+
+ <div id="main">
+  <div id="choices">
+<img src="$RXHEO0D\rock.jpg" alt="" class="imgs" id="rockimg">
+<img src="$RXHEO0D\paper.jpg" class="imgs" id="paperimg">
+<img src="$RXHEO0D\scierose.jpg" alt="" class="imgs" id="scioresimg">
+
+  </div>
+  <div class="gamdbody">
+<div id="player">
+<P >Player score </P>
+<span id="pscore"></span>  
+<!--  player health pints bar-->
+<div class="frame"> 
+<div class="progress" id="playerprogress"></div>
+</div>
+</div>
+<P id="reuslt">reuslt</P>
+<div id="computer">
+  <P >computer score </P>
+  <!--  copmuter  health pints bar-->
+<span id="comscore"></span>
+<div class="frame">
+<div class="progress" id="computerprogress"></div>
+</div>
+</div>
+</div>
+
+<script src="$RXHEO0D\rpsGmae.js"></script>
+</div> 
+   <!-- Xo gmae-->
+<div id="xoMain">
+
+
+
+  <div class="turn-container">
+    <h3>Turn for</h3>
+    <div class="turn-box align">X</div>
+    <div class="turn-box align">O</div>
+    <div class="bg"></div>
+</div>
+<div class="main-grid">
+    <div class="box align">0</div>
+    <div class="box align">1</div>
+    <div class="box align">2</div>
+    <div class="box align">3</div>
+    <div class="box align">4</div>
+    <div class="box align">5</div>
+    <div class="box align">6</div>
+    <div class="box align">7</div>
+    <div class="box align">8</div>
+</div>
+<h2 id="results"></h2>
+<button id="play-again">Play Again</button>
+<script src="XOGAME.js"></script>
+</div>
+<!--            alone in space main                  -->
+<div id="aloneInSpaceMain">
+  <h1>Alone in Space</h1>
+    <canvas id="board"></canvas>
+    <script src="battle.js"></script>
+  </div  >
+
+  <div id="snakeGame">
+    
+    <div id="score">Score: <span class="score_value">0</span></div>
+    <div id="game-board" class="game-board"></div>
+
+  
+
+    <!--CUSTOM SCRIPT FILE-->
+    <script src="snakegame.js" type="module"></script>
+
+
+
+  </div>
+ 
+  <div id="comingSoone"> 
+    <video src="Battlefield V - Official Launch trailer - PS4.mp4" id="bfvgame"></video>
+
+
+  </div>
+   <aside  id="aside">
+<div ><img src="rps.jpg" alt="" id="rps" class="tickect" ></div>
+<div><img src="xo game.jpg" alt="" class="tickect" id="xo"></div>
+<div><img src="snalepass.jpg" alt="" class="tickect" id="snake"></div>
+<div><img src="batcs.jpg" alt="" class="tickect" id="aisgame"></div>
+<div>
+  <img src="bfv.png" alt="" class="tickect" id="bfv"> </div>
+  <span id="ArrowDown">&DownArrow; Coming Soon &DownArrow;</span>
+    </aside>
+  </main>
+ 
+  <script src="mainui.js"></script>
+</body>
+</html>

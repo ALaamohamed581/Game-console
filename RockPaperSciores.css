@@ -1,0 +1,55 @@
+
+
+#main{
+
+  margin: auto;
+  text-align: center;
+  color: rgb(95, 53, 53);
+  font-family: 'CARTOON FREE', sans-serif;
+}
+
+span{
+  display: inline-block;
+}
+#choices{
+  justify-content: space-around;
+  display: flex;
+  gap: 35px;
+  flex-direction: row;
+  padding: 5rem;}
+
+
+.imgs{
+  display: flex;
+  height:15rem;
+cursor: pointer;
+box-shadow: .1rem .1rem .1rem .1rem rgba(0, 0, 0, 0.288);
+
+}
+img:hover{
+  transform: translate(0,1rem);
+
+}
+.gamdbody{
+  display: flex;
+  justify-content: space-around;
+font-size: 3rem;
+
+}
+
+.frame {
+  width: 400px;
+  background-color: gray;
+  height: 60px;
+  border-radius: 100px;
+}
+.progress{
+  
+  background-color: green;
+  height: 60px;
+  position: absolute;
+  border-radius: 100px;
+  transition: all .3s;
+  margin-top: 0;
+
+}
